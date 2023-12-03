@@ -1,0 +1,35 @@
+{
+  "name": "ldo-tutorial-raw-rdf",
+  "version": "1.0.0",
+  "description": "A tutorial for using LDO with raw rdf",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ldo": "ldo build --input src/.shapes --output src/.ldo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-development/ldo-tutorial-raw-rdf.git"
+  },
+  "keywords": [
+    "ldo",
+    "tutorial"
+  ],
+  "author": "jaxoncreed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o-development/ldo-tutorial-raw-rdf/issues"
+  },
+  "homepage": "https://github.com/o-development/ldo-tutorial-raw-rdf#readme",
+  "devDependencies": {
+    "@ldo/cli": "^0.0.1-alpha.17",
+    "@types/jsonld": "^1.5.13",
+    "@types/shexj": "^2.1.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@ldo/ldo": "^0.0.1-alpha.17"
+  }
+}
